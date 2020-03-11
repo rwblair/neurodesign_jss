@@ -605,7 +605,10 @@ optimization is finished, a zip file can be downloaded containing a
 chosen number of designs.  Each design contains the onsets for each
 stimulus, a report with design diagnostics (such as collinearity among
 regressors, see Figure~\ref{fig7}), and a script.  The script can be
-used for future reference, or for regenerating the designs locally.
+used for future reference, or for regenerating the designs locally. The
+source code for the GUI and deployment information is available at
+\url{https://github.com/neuropower/neuropower-web}.
+
 %
 \begin{figure}[t!]
 \centering
@@ -882,9 +885,7 @@ $ docker run -v /location_where_the_script_is/:/local \
 %
 This use of Docker containers is not only well suited for
 reproducibility of the GUI, but also allows the replication of results
-from a \proglang{Python} script (given that a random seed is set). The
-source code for the GUI and deployment information is available at
-\url{https://github.com/neuropower/neuropower-web}.
+from a \proglang{Python} script (given that a random seed is set).
 
 \section{Conclusion}\label{sec:conclusion}
 
